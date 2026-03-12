@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const TicketSchema = new mongoose.schema({
+const TicketSchema = new mongoose.Schema({
     ticketId : {
         type : String,
         required : true ,
